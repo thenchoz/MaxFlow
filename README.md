@@ -32,9 +32,10 @@ The max flow algorithm is used to find the maximum flow in a directed flow netwo
 - CMake
 
 ### Steps
-1. Download this folder :
+1. Clone the repository:
     ```sh
-    cd maxflow_optimization
+    git clone https://github.com/thenchoz/MaxFlow.git
+    cd MaxFlow
     ```
 
 2. Create and activate a virtual environment:
