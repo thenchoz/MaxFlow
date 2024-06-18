@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="capacity" attr.type="double" />
+  <graph edgedefault="directed">
+    <node id="s" />
+    <node id="v1" />
+    <node id="v2" />
+    <node id="v3" />
+    <node id="v4" />
+    <node id="v5" />
+    <node id="v6" />
+    <node id="v7" />
+    <node id="v8" />
+    <node id="v9" />
+    <node id="v10" />
+    <node id="t" />
+    <edge source="s" target="v1">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="s" target="v2">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v1" target="v3">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="v1" target="v4">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="v2" target="v3">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v2" target="v4">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v2" target="v5">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v3" target="v6">
+      <data key="d0">4.0</data>
+    </edge>
+    <edge source="v4" target="v6">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="v4" target="v7">
+      <data key="d0">4.0</data>
+    </edge>
+    <edge source="v4" target="v8">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="v5" target="v8">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v6" target="v9">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v7" target="v9">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v7" target="v10">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v8" target="v10">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v9" target="t">
+      <data key="d0">4.0</data>
+    </edge>
+    <edge source="v10" target="t">
+      <data key="d0">3.0</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="capacity" attr.type="double" />
+  <graph edgedefault="directed">
+    <node id="s" />
+    <node id="v1" />
+    <node id="v2" />
+    <node id="t" />
+    <node id="v3" />
+    <edge source="s" target="v1">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="s" target="v2">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v1" target="v2">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v1" target="t">
+      <data key="d0">4.0</data>
+    </edge>
+    <edge source="v2" target="t">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="v2" target="v3">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="v3" target="t">
+      <data key="d0">3.0</data>
+    </edge>
+  </graph>
+</graphml>
